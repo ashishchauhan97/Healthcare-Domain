@@ -157,3 +157,16 @@ FROM Admissions a
 JOIN Conditions c ON a.condition_id = c.condition_id
 GROUP BY c.condition_name
 ORDER BY avg_stay_days DESC;
+```
+### 🔍Key Insights: ###
+```
+1.Chronic conditions like hypertension or diabetes often top the list—indicating the need for geriatric-focused care programs
+2.Conditions like cancer or cardiovascular diseases are the costliest, helping hospitals prioritize budgeting and insurance coverage strategies.
+3.Identifies high-performing doctors who could lead training, research, or mentorship programs
+4. Highlights hospitals with high average costs—useful for benchmarking and auditing
+5.Shows which hospitals need more support in emergency readiness and staffing
+6.Evaluates insurer cost effectiveness, guiding better partnerships and policy design
+7.Helps identify cost drivers in the system, useful for policy reform or preventive campaigns
+8.Top drugs (e.g., Metformin, Insulin) are revealed—helping with pharmacy inventory and supplier contracts.
+9.Medication choices vary across age and gender—supports personalized medicine initiatives.
+10. Pinpoints conditions with long stays—helps optimize bed availability and discharge planning.
